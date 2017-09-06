@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "piupiu.com"
+
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    url = "/about/"
+[[menu.main]]
+    name = "groovebox"
+    identifier = "groovebox"
+    url = "/groovebox/"
+[[menu.main]]
+    name = "mixes"
+    identifier = "mixes"
+    url = "/mixes/"
+[[menu.main]]
+    name = "ICE"
+    identifier = "ice"
+    url = "/ice/"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
